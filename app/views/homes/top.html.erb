@@ -1,0 +1,8 @@
+<%= flash[:notice] %>
+
+<div  class="text-center">
+    <i class="fas fa-book fa-3x"></i>
+    <h1>welcome to Bookers !!</h1>
+    <p><%= link_to "Log in", new_user_session_path, class: "btn btn-secondary" %></p>
+    <p><%= link_to "Sign up", new_user_registration_path, class: "btn btn-secondary" %></p>
+</div>
